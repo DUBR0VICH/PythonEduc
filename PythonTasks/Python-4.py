@@ -42,54 +42,53 @@ def arccos(x):
     else:
         return math.acos(x)
 
-while True:
-    print("Выберите операцию.")
-    print("+")
-    print("-")
-    print("*")
-    print("/")
-    print("^")
-    print("%")
-    print("rand")
-    print("!")
-    print("arccos")
+print("Выберите операцию.")
+print("+")
+print("-")
+print("*")
+print("/")
+print("^")
+print("%")
+print("rand")
+print("!")
+print("arccos")
 
-    operation = input()
+operation = input()
 
-    if operation == "+" or operation == "-" or operation == "*" or operation == "/" or operation == "^" or operation == "%" or operation == "rand":
-        x = float(input("Введите первое число: "))
-        y = float(input("Введите второе число: "))
+if operation == "+" or operation == "-" or operation == "*" or operation == "/" or operation == "^" or operation == "%" or operation == "rand":
+    x = float(input("Введите первое число: "))
+    y = float(input("Введите второе число: "))
 
-        if operation == "+":
-            print(x, "+", y, "=", add(x, y))
+    if operation == "+":
+        print(x, "+", y, "=", add(x, y))
 
-        elif operation == "-":
-            print(x, "-", y, "=", subtract(x, y))
+    elif operation == "-":
+        print(x, "-", y, "=", subtract(x, y))
 
-        elif operation == "*":
-            print(x, "*", y, "=", multiply(x, y))
+    elif operation == "*":
+        print(x, "*", y, "=", multiply(x, y))
 
-        elif operation == "/":
-            result = divide(x, y)
-            if result is not None:
-                print(x, "/", y, "=", result)
+    elif operation == "/":
+        result = divide(x, y)
+        if result is not None:
+            print(x, "/", y, "=", result)
 
-        elif operation == "^":
-            print(x, "^", y, "=", power(x, y))
+    elif operation == "^":
+        print(x, "^", y, "=", power(x, y))
 
-        elif operation == "%":
-            print(x, "%", y, "=", mod(x, y))
+    elif operation == "%":
+        print(x, "%", y, "=", mod(x, y))
 
-        elif operation == "rand":
-            print("Случайное число в интервале [", x, ",", y, "] =", rand(x, y))
+    elif operation == "rand":
+        print("Случайное число в интервале [", x, ",", y, "] =", rand(x, y))
 
-    elif operation == "!":
-        x = int(input("Введите число: "))
-        print(x, "! =", factorial(x))
+elif operation == "!":
+    x = int(input("Введите число: "))
+    print(x, "! =", factorial(x))
 
-    elif operation == "arccos":
-        x = float(input("Введите число: "))
-        print("arccos(", x, ") =", arccos(x))
+elif operation == "arccos":
+    x = float(input("Введите число: "))
+    print("arccos(", x, ") =", arccos(x))
 
-    else:
-        print("Операция не распознана!")
+else:
+    print("Операция не распознана!")
