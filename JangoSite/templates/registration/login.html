@@ -6,8 +6,8 @@
         <p>{{ form.errors.error }}</p>
     {% endif %}
     <form action="{% url 'login' %}" method="post">
-        {{form}}]
+        {{form}}
         {% csrf_token %}
-        <button type="submit" class="btn btn-success"> submit </button>
+        <button type="submit" class="btn btn-success">Submit</button>
     </form>
 {% endblock %}

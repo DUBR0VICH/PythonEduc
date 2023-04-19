@@ -1,0 +1,99 @@
+/* Цвет фона */
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Центрирование основного контейнера */
+.container {
+    margin: auto;
+    max-width: 50%;
+    padding: 10px;
+}
+
+/* Стиль прямоугольника */
+.rectangle {
+    background-color: #3CB371;
+    border: 3px solid #000;
+    border-radius: 50px;
+    padding: 50px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+/* Стиль формы */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Стиль кнопки */
+.btn {
+    background-color: #98FB98;
+    color: #000;
+    padding: 3px 30px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+}
+
+/* Зелёная полоса внизу страницы */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    border: 3px solid #000;
+    background-color: #2E8B57;
+}
+
+.btn-login {
+  background-color: #98FB98;
+  color: #000;
+  padding: 3px 30px;
+  border: 3px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-logout {
+  background-color: #98FB98;
+  color: #000;
+  padding: 3px 30px;
+  border: 3px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-register {
+  background-color: #98FB98;
+  color: #000;
+  padding: 3px 30px;
+  border: 3px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-home {
+  background-color: #98FB98;
+  color: #000;
+  padding: 2px 50px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
