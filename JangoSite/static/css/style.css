@@ -1,44 +1,30 @@
-/* Цвет фона */
+/* Общие стили */
 body {
-    background-color: #ffffff;
+    background-color: #DCDCDC;
     font-family: Arial, sans-serif;
 }
 
-/* Центрирование основного контейнера */
+.line {
+    height: 300px;
+    background-color: #2E8B57;
+    margin: -10px -8px -300px -8px;
+}
+
 .container {
-    margin: auto;
+    margin: 0 auto;
     max-width: 50%;
     padding: 10px;
 }
 
-/* Стиль прямоугольника */
 .rectangle {
     background-color: #3CB371;
-    border: 3px solid #000;
+    border: 2px solid #000;
     border-radius: 50px;
     padding: 50px;
-    margin: 0 auto;
+    margin: -39px 0px 0px 600px;
     width: 50%;
 }
 
-/* Стиль формы */
-.form-group {
-    margin-bottom: 15px;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.form-group input {
-    width: 100%;
-    padding: 5px;
-    border: 2px solid #ccc;
-    border-radius: 3px;
-}
-
-/* Стиль кнопки */
 .btn {
     background-color: #98FB98;
     color: #000;
@@ -52,48 +38,70 @@ body {
     background-color: #3e8e41;
 }
 
-/* Зелёная полоса внизу страницы */
 .footer {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 250px;
-    border: 3px solid #000;
+    height: 200px;
+    background-color: #3CB371;
+}
+
+.footer1 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
     background-color: #2E8B57;
 }
 
 .btn-login {
-  background-color: #98FB98;
-  color: #000;
-  padding: 3px 30px;
-  border: 3px solid #000;
-  border-radius: 5px;
-  cursor: pointer;
+    background-color: #98FB98;
+    color: #000;
+    padding: 3px 30px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .btn-logout {
-  background-color: #98FB98;
-  color: #000;
-  padding: 3px 30px;
-  border: 3px solid #000;
-  border-radius: 5px;
-  cursor: pointer;
+    background-color: #98FB98;
+    color: #000;
+    padding: 3px 30px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .btn-register {
-  background-color: #98FB98;
-  color: #000;
-  padding: 3px 30px;
-  border: 3px solid #000;
-  border-radius: 5px;
-  cursor: pointer;
+    background-color: #98FB98;
+    color: #000;
+    padding: 3px 30px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
 }
-.btn-home {
-  background-color: #98FB98;
-  color: #000;
-  padding: 2px 50px;
-  border: 2px solid #000;
-  border-radius: 5px;
-  cursor: pointer;
+
+h1 {
+    transform: translate(36%, 0%);
+}
+
+/* Стили для блока content1 */
+#content1 {
+  width: 100%;
+  height: 800px;
+  background-color: #fff;
+}
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.postcard {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
 }

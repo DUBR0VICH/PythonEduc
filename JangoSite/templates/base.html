@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
+
+    <div class="line"></div>
     <div class="rectangle">
         <div class="container">
             <div class="row">
@@ -28,6 +30,12 @@
             </div>
         </div>
     </div>
+    <div id="content1">
+        {% block content1 %}
+        {% endblock %}
+    </div>
+    <div class="footer0"></div>
     <div class="footer"></div>
+    <div class="footer1"></div>
 </body>
 </html>
