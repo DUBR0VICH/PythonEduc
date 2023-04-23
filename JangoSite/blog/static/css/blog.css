@@ -1,0 +1,144 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 0.8fr auto;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  background-color: rgb(88,86,214);
+  color: #fff;
+  border-left: 1px solid rgb(155,160,170);
+}
+
+#content {
+  display: grid;
+  grid-template-rows: 85px auto 25px;
+  padding: 10px;
+  background-color: rgb(242,242,247);
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px
+}
+
+.posts .postcard {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 8px;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  gap: 8px;
+}
+
+.posts .postcard * {
+  margin: 0;
+  padding: 0;
+}
+
+.posts .postcard h2 a {
+  text-decoration: none;
+}
+
+.posts .postcard p.date {
+  color: #888;
+  font-size: 14px;
+}
+
+.posts .postcard p:last-child {
+  margin-top: 8px;
+}
+
+.btn-login {
+    background-color: #1E90FF;
+    color: #000;
+    padding: 5px 30px;
+    margin: 0px 0px 5px 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comment {
+    background-color: #87CEEB;
+    border: 1px solid #000;
+    border-radius: 25px;
+    margin: 0px 0px 5px 5px;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+.info {
+    padding: 10px;
+}
+
+.bodycom {
+    padding: 10px;
+}
+
+.newcom {
+    background-color: #1E90FF;
+    color: #fff;
+    padding: 5px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-share {
+    background-color: #DCDCDC;
+    color: #000;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.date1 {
+    background-color: #DCDCDC;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.postbody {
+    background-color: #DCDCDC;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding: 50px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h9 {
+    margin-top: 110px;
+    margin-bottom: -30px;
+}

@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <link href="{% static "css/blog.css" %}" rel="stylesheet">
+</head>
+<body>
+<div id="content">
+    {% block content %}
+    {% endblock %}
+</div>
+<div id="sidebar">
+    <h2>Site by DUBROVICH</h2>
+    <p>For PSKOV GU</p>
+    <h4 class="UserHello">
+        Current user: {{ user }}
+    </h4>
+    {% if user.is_authenticated %}
+        <a href="{% url 'logout' %}" class="btn btn-login">Logout</a>
+    {% else %}
+        <a href="{% url 'login' %}" class="btn btn-login">Login</a>
+    {% endif %}
+    <a href="{% url 'base' %}" class="btn btn-login">Go to Posts</a>
+    <a href="{% url 'home' %}" class="btn btn-login">Go to Home</a>
+</div>
+</body>
+</html>

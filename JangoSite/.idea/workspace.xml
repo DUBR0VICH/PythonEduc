@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1b0234f-1841-4040-a6dd-cb220a5ca4f1" name="Default Changelist" comment="" />
+    <list default="true" id="fcafea04-de9f-4d86-906e-71ed12638624" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -25,7 +18,7 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProjectId" id="2OZ8zIqAS6QusGLRALjn4Quq8FK" />
+  <component name="ProjectId" id="2OjihCWDEWOtowxM8LeRaAQGkpD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,10 +31,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\ProgrammsPGU\PythonEduc\JangoSite" />
-      <recent name="E:\ProgrammsPGU\PythonEduc\JangoSite\mysite\static" />
-      <recent name="E:\ProgrammsPGU\PythonEduc\JangoSite\mysite" />
-      <recent name="E:\ProgrammsPGU\PythonEduc\JangoSite\templates\css" />
+      <recent name="E:\ProgrammsPGU\PythonEduc\JangoSite\templates\registration" />
+      <recent name="E:\ProgrammsPGU\PythonEduc\JangoSite\users\templates\registration" />
+      <recent name="E:\ProgrammsPGU\PythonEduc\JangoSite\users\templates\users" />
     </key>
   </component>
   <component name="RunManager">
@@ -52,9 +44,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="E:\ProgrammsPGU\PythonEduc\JangoSite\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
@@ -70,11 +62,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a1b0234f-1841-4040-a6dd-cb220a5ca4f1" name="Default Changelist" comment="" />
-      <created>1681757006568</created>
+      <changelist id="fcafea04-de9f-4d86-906e-71ed12638624" name="Default Changelist" comment="" />
+      <created>1682080510254</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1681757006568</updated>
+      <updated>1682080510254</updated>
     </task>
     <servers />
   </component>
