@@ -29,6 +29,13 @@ body {
   background-color: rgb(242,242,247);
 }
 
+#createp {
+    background-color: #1E90FF;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 100px;
+}
+
 .posts {
   display: flex;
   flex-direction: column;
